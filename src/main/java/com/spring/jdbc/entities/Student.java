@@ -1,4 +1,4 @@
-package com.spring.jdbc;
+package com.spring.jdbc.entities;
 
 public class Student {
     private int studentId;
@@ -35,7 +35,7 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public void setStudentCity(String studentCity) {
+    public void setStudentCity(String studentCity){
         this.studentCity = studentCity;
     }
 
